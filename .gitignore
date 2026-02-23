@@ -1,0 +1,33 @@
+# Nextflow
+.nextflow/
+.nextflow.log*
+work/
+results/
+
+# Apptainer/Singularity images
+*.sif
+*.simg
+
+# Data files (large FASTQ/SRA)
+data/
+*.fastq
+*.fastq.gz
+*.sra
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
